@@ -1,0 +1,19 @@
+# DragonConfig
+# DragonCast by Peace1333
+# Feature for the Future
+
+# Interval :
+interval: 600
+
+# Messages:
+Messages:
+  0:
+    Message: '§7§l[§6DragonCast§7§l] §3This is the Default Config'
+    Stay: 30
+    Worlds:
+      - world
+  1:
+    Message: '§7§l[§6DragonCast§7§l] §3If you see this, Please contact the Serveradmin'
+    Duration: 30
+    Worlds:
+      - world

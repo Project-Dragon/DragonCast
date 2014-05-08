@@ -1,0 +1,26 @@
+name: DragonCast
+author: Peace1333  
+version: 5.0
+website: http://www.bukkit.org
+main: Main.Main
+depends: [Vault, PermissionsEx]
+loadbefore: [Vault]
+commands:
+     dc add:
+              description: Adds a Message to Messager
+              usage: /<command>
+     dc broadcast:
+              description: Broadcast  a Message
+              usage: /<command>
+     dc on:
+              description: Aktiviert den Automessager
+              usage: /<command>
+     dc off:
+              description: Deaktiviert den Automessager
+              usage: /<command>
+     dc:
+              description: DragonCast Grundbefehl
+              usage: /<command>
+     dc reload:
+              description: Reloadet die Config
+              usage: /<command>
