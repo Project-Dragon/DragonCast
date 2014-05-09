@@ -169,16 +169,14 @@ public boolean onCommand(CommandSender sender, Command cmd, String label,
 		    		p.sendMessage("§aMessages:");
 		    		int Counter = 1;
 		    		for(String me : m){
-		    			me = m.get(Counter);
 		    			p.sendMessage("§a" + Counter + ". §r" + me);
 		    			Counter ++;
 		    		}
-		    		Counter = 0;
+		    		Counter = 1;
 		    		p.sendMessage("§aWorlds");
 		    		@SuppressWarnings("unchecked")
 					List<String> w = (List<String>) cms.getChannelData(CM.get(p.getUniqueId()), "Worlds");
 		    		for(String we : w){
-		    			we = w.get(Counter);
 		    			p.sendMessage("§a" + Counter + ". §c" + we);
 		    			Counter ++;
 		    		}
@@ -191,7 +189,6 @@ public boolean onCommand(CommandSender sender, Command cmd, String label,
 		    		p.sendMessage("§aMessages:");
 		    		int Counter = 1;
 		    		for(String me : m){
-		    			me = m.get(Counter);
 		    			p.sendMessage("§a" + Counter + ". §r" + me);
 		    			Counter ++;
 		    		}
@@ -200,7 +197,6 @@ public boolean onCommand(CommandSender sender, Command cmd, String label,
 		    		@SuppressWarnings("unchecked")
 					List<String> w = (List<String>) cms.getChannelData(args[1], "Worlds");
 		    		for(String we : w){
-		    			we = w.get(Counter);
 		    			p.sendMessage("§a" + Counter + ". §c" + we);
 		    			Counter ++;
 		    		}
@@ -212,7 +208,6 @@ public boolean onCommand(CommandSender sender, Command cmd, String label,
     		p.sendMessage("§aMessages:");
     		int Counter = 1;
     		for(String me : m){
-    			me = m.get(Counter);
     			p.sendMessage("§a" + Counter + ". §r" + me);
     			Counter ++;
     		}
@@ -221,7 +216,6 @@ public boolean onCommand(CommandSender sender, Command cmd, String label,
     		@SuppressWarnings("unchecked")
 			List<String> w = (List<String>) cms.getChannelData(CM.get(p.getUniqueId()), "Worlds");
     		for(String we : w){
-    			we = w.get(Counter);
     			p.sendMessage("§a" + Counter + ". §c" + we);
     			Counter ++;
     		}
