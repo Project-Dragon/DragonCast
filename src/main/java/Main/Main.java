@@ -387,7 +387,6 @@ public void onDeath(PlayerRespawnEvent e){
 	final Player p = e.getPlayer();
 	Bukkit.getScheduler().scheduleSyncDelayedTask(DragonCore.plugin, new Runnable(){
 
-		@Override
 		public void run() {
 			General.displayDragonTextBar(DragonCore.plugin, "§aLoading ...", p, 10, 100);
 

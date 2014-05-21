@@ -27,6 +27,10 @@
         <id>Plugin Metrics</id>
         <url>http://repo.mcstats.org/content/repositories/public</url>
     </repository>
+    <repository>
+    <id>DragonSuite</id>
+    <url>http://www.project-dragon.ch:8081/artifactory/repo</url>
+    </repository>
     </repositories>
       <dependencies>
                 <dependency>
@@ -46,13 +50,11 @@
       		<artifactId>Vault</artifactId>
       		<version>1.2.16</version>
       	</dependency>
-    	<dependency>
-      	<groupId>DragonSuite</groupId>
-      	<artifactId>DragonCore</artifactId>
-      	<version>1.0</version>
-      	<scope>system</scope>
-      	<systemPath>/var/lib/jenkins/workspace/DragonCore/target/DragonCore.jar</systemPath>
-    	</dependency>
+      	<dependency>
+      		<groupId>DragonSuite</groupId>
+      		<artifactId>DragonCore</artifactId>
+      		<version>1.0</version>
+      	</dependency>
       </dependencies>
       
 </project>
